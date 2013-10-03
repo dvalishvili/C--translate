@@ -1,0 +1,9 @@
+  int jami = 0;
+            string[] file = File.ReadAllLines("numbs.txt");
+            foreach (var d in file)
+            {
+               jami+=Convert.ToInt32(d);
+
+            }
+
+            Console.WriteLine(jami);
